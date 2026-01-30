@@ -9,6 +9,7 @@ public class Credential {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    
     private String url;
     private String username;
     private String password;
