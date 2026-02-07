@@ -35,8 +35,9 @@ jobs:
         run: mvn test
 
       - name: SonarQube Scan via Maven
-        run: mvn sonar:sonar \
-            -Dsonar.projectKey=Priya260511_Password_management_backend2\
+        run: |
+          mvn sonar:sonar \
+            -Dsonar.projectKey=Priya260511_Password_management_backend2 \
             -Dsonar.organization=priya260511 \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
