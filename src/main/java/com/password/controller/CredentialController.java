@@ -5,7 +5,7 @@ import com.password.repository.CredentialRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+//control test
 @RestController
 @RequestMapping("/api/credentials")
 @CrossOrigin("*")
