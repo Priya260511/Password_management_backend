@@ -1,7 +1,7 @@
 package com.password.model;
 
 import jakarta.persistence.*;
-
+//entity
 @Entity
 public class Credential {
 
