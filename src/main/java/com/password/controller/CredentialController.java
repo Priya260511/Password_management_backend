@@ -8,7 +8,7 @@ import java.util.List;
 //control test
 @RestController
 @RequestMapping("/api/credentials")
-@CrossOrigin("*")
+@CrossOrigin("https://your-frontend-domain.com")
 public class CredentialController {
 
     private final CredentialRepository repo;
