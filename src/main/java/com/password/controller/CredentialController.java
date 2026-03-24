@@ -1,5 +1,4 @@
 package com.password.controller;
-
 import com.password.model.Credential;
 import com.password.repository.CredentialRepository;
 import org.springframework.web.bind.annotation.*;
