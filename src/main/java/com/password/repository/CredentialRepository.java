@@ -1,4 +1,3 @@
-
 package com.password.repository;
 
 import com.password.model.Credential;
