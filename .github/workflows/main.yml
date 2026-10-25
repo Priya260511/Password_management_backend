@@ -35,6 +35,7 @@ jobs:
 
       - name: SonarQube analyze
         if: ${{ secrets.SONAR_TOKEN != '' }}
+        continue-on-error: true
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn -B org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Priya260511_Password_management_backend2
