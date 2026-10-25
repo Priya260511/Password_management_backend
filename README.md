@@ -60,4 +60,4 @@ Render Deployment
 >Application is successfully deployed and running with a live status.
 >Render provides a public URL to access the backend REST APIs.
 >Free instance may take around 50 seconds or more to respond after inactivity.
->Live Backend URL: https://password-management-backend-h3yy.onrender.com
+
