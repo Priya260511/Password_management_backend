@@ -54,3 +54,10 @@ Challenges & Learnings
 >Integrating SonarCloud for automated code quality checks
 >Automating CI/CD pipeline to reduce manual steps
 >Ensuring backend APIs work correctly with frontend
+<img width="960" height="540" alt="Screenshot 2026-10-25 181516" src="https://github.com/user-attachments/assets/346c3cfe-ba0f-4d79-bac2-e2e6f7c7e1b8" />
+Render Deployment
+>Backend is deployed on Render using Docker.
+>Application is successfully deployed and running with a live status.
+>Render provides a public URL to access the backend REST APIs.
+>Free instance may take around 50 seconds or more to respond after inactivity.
+>Live Backend URL: https://password-management-backend-h3yy.onrender.com
